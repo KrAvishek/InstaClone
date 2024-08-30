@@ -28,7 +28,7 @@ const Signup=()=>{
             setLoading(true);
             //Axios is a promise-based HTTP library that lets developers make requests to either their own server or a third-party server to fetch data. It offers different ways of making requests such as GET , POST , PUT/PATCH , and DELETE .
             //Input is the data being sent to the server in the body of the POST request. It's typically an object containing user information for registration.
-            const res=await axios.post('http://localhost:8000/api/v1/user/register',input,{
+            const res=await axios.post('https://instaclone-bp7h.onrender.com/api/v1/user/register',input,{
                 //The headers object contains key-value pairs that represent the headers sent with the request.
                 //The Content-Type header tells the server what type of data is being sent in the request body. In this case, 'application/json' indicates that the request body is JSON-formatted.
                 headers:{
