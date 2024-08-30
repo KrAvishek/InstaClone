@@ -47,7 +47,7 @@ const useGetAllPost = () => {
     };
 
     fetchAllPost();
-  }, [dispatch]); // Ensure dispatch is included in dependency array
+  }, []); // Ensure dispatch is included in dependency array
 };
 
 const Home = () => {
