@@ -164,9 +164,13 @@ const EditProfile = () => {
     const editProfileHandler = async () => {
         console.log(input);
         const formData = new FormData();
-        formData.append("bio", input.bio);
-        formData.append("gender", input.gender);
-        if (input.profilePhoto) {
+        if (input.bio !== user?.bio) {
+            formData.append("bio", input.bio);
+        }
+        if (input.gender !== user?.gender) {
+            formData.append("gender", input.gender);
+        }
+        if (input.profilePhoto && input.profilePhoto !== user?.profilePicture) {
             formData.append("profilePhoto", input.profilePhoto);
         }
         try {
