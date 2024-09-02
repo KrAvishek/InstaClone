@@ -2,3 +2,44 @@
 @tailwind components;
 @tailwind utilities;
   
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+@font-face {
+    font-family: insta_font;
+    
+    src: url("./RalstedaRegular-4Bqy9.otf");
+}
+/* styles.css or index.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Opera */
+  }
+  
+  /* Assuming you're using a CSS-in-JS solution or CSS module */
+.sidebar-item {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-item.active {
+    background-color: #333; /* Dark background for active state */
+    color: #fff; /* Light text for contrast */
+}
