@@ -6,6 +6,8 @@ import { toast } from "sonner";
 import { Link, useNavigate } from "react-router-dom";
 import { Loader2 } from "lucide-react";
 import { useSelector } from "react-redux";
+import "../index.css";
+
 
 const Signup=()=>{
     const [input,setInput]=useState({

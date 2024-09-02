@@ -253,6 +253,8 @@ import axios from "axios";
 import { toast } from "sonner";
 import { setPosts, setSelectedPost } from "@/redux/postSlice";
 import { Badge } from "./ui/badge";
+import "../index.css";
+
 
 const Post = ({ post }) => {
   const [text, setText] = useState("");
@@ -302,6 +304,7 @@ const Post = ({ post }) => {
     }
   };
 
+
   const commentHandler = async () => {
     try {
       const res = await axios.post(
@@ -321,7 +324,7 @@ const Post = ({ post }) => {
         const updatedPostData = posts.map((p) =>
           p._id === post._id ? { ...p, comments: updatedCommentData } : p
         );
-
+        
         dispatch(setPosts(updatedPostData));
         toast.success(res.data.message);
         setText("");
