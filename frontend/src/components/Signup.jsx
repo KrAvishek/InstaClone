@@ -62,7 +62,7 @@ const Signup=()=>{
         <div className="flex items-center w-screen h-screen justify-center">
             <form onSubmit={signupHandler} className="shadow-lg flex flex-col gap-5 p-8">
                 <div className="my-4">
-                    <h1 className="text-center font-cursive font-extrabold text-3xl">Instagram</h1>
+                <h1 className='my-5 text-center font-weight:600 text-4xl' style={{ fontFamily: 'insta_font' }}>Instagram</h1>
                     <p className="text-small text-center p-1">Sign-up to see photos & videos from your friends </p>
                 </div>
                 <div>

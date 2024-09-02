@@ -74,7 +74,7 @@ useEffect(()=>{
         className="shadow-lg flex flex-col gap-5 p-8"
       >
         <div className="my-4">
-          <h1 className="text-center font-cursive font-bold text-4xl">Instagram</h1>
+        <h1 className='my-5 text-center font-weight:600 text-4xl' style={{ fontFamily: 'insta_font' }}>Instagram</h1>
           <p className="text-small text-center p-1">
             Log-In to see photos & videos from your friends{" "}
           </p>
