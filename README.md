@@ -19,17 +19,17 @@ This project is a full-stack Instagram Clone built using the **MERN stack** (Mon
 - **Chat System**: Real-time chat between users.
 
 ## :camera: Screenshots
-- **Home Page**:
+
+- **Profile Section**:
+![Instagram Clone](https://github.com/KrAvishek/InstaClone/raw/main/ReadME%20Assets/Screenshot%202024-09-02%20155630.png "Instagram Clone")
+- **Feed Section**:
 ![Instagram Clone](https://github.com/KrAvishek/InstaClone/raw/main/ReadME%20Assets/Screenshot%202024-09-07%20192804.png "Instagram Clone")
 
-- **Dashboard Page**:
-![Instagram Clone](https://github.com/KrAvishek/InstaClone/raw/main/ReadME%20Assets/Screenshot%202024-09-02%20155507.png "Instagram Clone")
-- **ChatBot**:
-![Screenshot](https://raw.githubusercontent.com/KrAvishek/InquiryDocument/main/ReadME%20Assests/Screenshot%202024-06-26%20163245.png)
-- **Pricing Page**:
-![Screenshot](https://raw.githubusercontent.com/KrAvishek/InquiryDocument/main/ReadME%20Assests/Screenshot%202024-06-26%20164058.png)
-- **Support Page**:
-![Screenshot](https://raw.githubusercontent.com/KrAvishek/InquiryDocument/main/ReadME%20Assests/Screenshot%202024-06-26%20164030.png)
+- **Message Section**:
+![Instagram Clone](https://github.com/KrAvishek/InstaClone/raw/main/ReadME%20Assets/Screenshot%202024-09-02%20155129.png "Instagram Clone")
+- **Post Section**:
+![Instagram Clone](https://github.com/KrAvishek/InstaClone/raw/main/ReadME%20Assets/Screenshot%202024-09-02%20155707.png "Instagram Clone")
+
 
 
 
