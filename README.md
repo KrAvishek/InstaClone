@@ -1,7 +1,9 @@
+<a name="readme-top"></a>
 # Instagram Clone
 
+![Instagram Clone](https://github.com/KrAvishek/InstaClone/raw/main/ReadME%20Assets/Screenshot%202024-09-02%20155307.png "Instagram Clone")
+
 This project is a full-stack Instagram Clone built using the **MERN stack** (MongoDB, Express, React, Node.js).
-(./ReadME%20Assests/Screenshot%202024-09-02%155307.png "InquiryDoc - The SaaS for Students")
 
 ## Features
 
